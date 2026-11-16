@@ -1,28 +1,26 @@
-# Galería Joelle (HTML) — metamorfosis de una vela
+# Galería Joelle (HTML)
 
-Galería de posts con React por CDN. Misma idea visual que `galeria-joelle`, en este repo.
+Galería de posts con el tema “metamorfosis de una vela”. React va por CDN, sin proyecto de build.
 
 ## Qué hace
 
-- Cuadrícula de tarjetas (imagen, título, descripción, contenido y fecha)
-- Datos en `posts.js` (`postsData`)
+- Rejilla de tarjetas: portada, título, texto y fecha
+- Los posts viven en `posts.js` (`postsData`)
 - Fondo e imágenes en `img/`
 
 ## Cómo probarlo
 
-Abre `index.html` (React + Babel por CDN, sin build).
+Abre `index.html`. Carga React, Babel y Tailwind desde CDN.
 
 Demo: https://moussijoelle.github.io/galeria-joelle-html/
 
 ## Cómo lo construí
 
-- React 18 + Babel standalone + Tailwind (CDN)
-- Componentes `PostCard` y `App` en el HTML
-- Tipografía Cormorant Garamond
+Componentes `PostCard` y `App` escritos en JSX dentro del HTML. Datos separados del marcado. Tipografía Cormorant Garamond.
 
 ## Cómo verificarlo
 
-Sin tests. Abro la demo y compruebo que salgan todas las tarjetas con imagen y texto.
+Miro que salgan todas las tarjetas, con imagen y texto legible, en escritorio y en móvil.
 
 ---
 
